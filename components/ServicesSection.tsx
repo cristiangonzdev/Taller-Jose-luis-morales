@@ -67,16 +67,19 @@ export default function ServicesSection() {
     <section id="servicios" className="py-20 relative" ref={sectionRef}>
       <div className="absolute inset-0 bg-[url('/images/taller/seccionservicios.webp')] bg-cover bg-center"></div>
       
+      <div className="absolute top-0 left-0 right-0 h-24 bg-gradient-to-b from-white/40 to-transparent"></div>
+      <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-white/40 to-transparent"></div>
+      
       <div className="container mx-auto px-4 relative z-10">
         <div
           className={`text-center mb-16 transition-all duration-1000 ${
             isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
           }`}
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4">
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
             Nuestros servicios
           </h2>
-          <p className="text-lg text-slate-600 max-w-2xl mx-auto">
+          <p className="text-lg text-white max-w-2xl mx-auto font-semibold">
             Ofrecemos una amplia gama de servicios mecánicos con la garantía de años de experiencia y atención personalizada.
           </p>
         </div>

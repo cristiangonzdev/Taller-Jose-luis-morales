@@ -51,8 +51,10 @@ export default function ContactSection() {
   };
 
   return (
-    <section id="contacto" className="py-20 bg-gray-50" ref={sectionRef}>
-      <div className="container mx-auto px-4">
+    <section id="contacto" className="py-20 bg-gray-50 relative" ref={sectionRef}>
+      <div className="absolute top-0 left-0 right-0 h-24 bg-gradient-to-b from-slate-900/20 to-transparent"></div>
+      
+      <div className="container mx-auto px-4 relative z-10">
         <div
           className={`text-center mb-16 transition-all duration-1000 ${
             isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
