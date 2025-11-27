@@ -29,9 +29,9 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="relative min-h-screen flex items-center justify-center pt-20 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900"
+      className="relative min-h-screen flex items-center justify-center pt-20"
     >
-      <div className="absolute inset-0 bg-[url('/fondo_taller_1.webp')] bg-cover bg-center opacity-20"></div>
+      <div className="absolute inset-0 bg-[url('/images/taller/fondooscuro.webp')] bg-cover bg-center"></div>
 
       <div className="absolute inset-0 bg-gradient-to-b from-slate-900/50 via-slate-900/70 to-slate-900/90"></div>
 
@@ -71,7 +71,7 @@ export default function Hero() {
             <Button
               size="lg"
               variant="outline"
-              className="border-2 border-white text-white hover:bg-white hover:text-slate-900 text-lg px-8 py-6 w-full sm:w-auto"
+              className="border-2 border-black text-black font-bold hover:bg-gray-100 hover:text-black text-lg px-8 py-6 w-full sm:w-auto"
               onClick={() => window.location.href = 'tel:+34123456789'}
             >
               <Phone className="mr-2 h-5 w-5" />

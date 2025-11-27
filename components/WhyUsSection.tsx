@@ -52,8 +52,10 @@ export default function WhyUsSection() {
   }, []);
 
   return (
-    <section id="por-que-elegirnos" className="py-20 bg-white" ref={sectionRef}>
-      <div className="container mx-auto px-4">
+    <section id="por-que-elegirnos" className="py-20 relative" ref={sectionRef}>
+      <div className="absolute inset-0 bg-[url('/images/taller/fonotaller_1.webp')] bg-cover bg-center"></div>
+      
+      <div className="container mx-auto px-4 relative z-10">
         <div
           className={`text-center mb-16 transition-all duration-1000 ${
             isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
