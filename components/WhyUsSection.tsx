@@ -54,6 +54,7 @@ export default function WhyUsSection() {
   return (
     <section id="por-que-elegirnos" className="py-20 relative" ref={sectionRef}>
       <div className="absolute inset-0 bg-[url('/images/taller/fonotaller_1.webp')] bg-cover bg-center blur-sm"></div>
+      <div className="absolute inset-0 bg-black/30"></div>
       
       <div className="container mx-auto px-4 relative z-10">
         <div
